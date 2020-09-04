@@ -243,7 +243,7 @@ hr:before,
   --tab-button-active-bg: #fff;
   --card-bg: #fff;
   --sidebar-bg: #f6f8fa;
-  --btn-hover-color: #f9c;
+  --btn-hover-color: #fed0f5;
   --btn-color: #fff;
   --btn-bg: #f39;
   --text-bg-hover: #f39;
@@ -1963,7 +1963,7 @@ blockquote footer cite:before {
   font-size: 1.72em;
 }
 .article-sort-title:hover:before {
-  border-color: #f9c;
+  border-color: #fed0f5;
 }
 .article-sort-title:before {
   position: absolute;
@@ -2015,7 +2015,7 @@ blockquote footer cite:before {
   transition: all 0.2s ease-in-out;
 }
 .article-sort-item:hover:before {
-  border-color: #f9c;
+  border-color: #fed0f5;
 }
 .article-sort-item:before {
   position: absolute;
@@ -2045,7 +2045,7 @@ blockquote footer cite:before {
   border-color: #f39;
 }
 .article-sort-item.year:before {
-  border-color: #f9c;
+  border-color: #fed0f5;
 }
 .article-sort-item-time {
   color: #983680;
@@ -2165,7 +2165,7 @@ blockquote footer cite:before {
   content: '';
 }
 .category-content .category-lists ul li:hover:before {
-  border-color: #f9c;
+  border-color: #fed0f5;
 }
 .layout_page {
   display: -webkit-box;
@@ -3813,7 +3813,7 @@ _:future,
   padding: 0.2em 0.2em 0.2em 1.4em;
 }
 #article-container.post-content ul > li:not(.tab):hover:before {
-  border-color: #f9c;
+  border-color: #fed0f5;
 }
 #article-container.post-content ul > li:not(.tab):before {
   top: 0.78em;
