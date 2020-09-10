@@ -1687,81 +1687,6 @@ canvas:not(#ribbon-canvas),
     transform: translateX(0);
   }
 }
-figure.highlight table::-webkit-scrollbar-thumb {
-  background: #dce4eb;
-}
-figure.highlight pre .deletion {
-  color: #bf42bf;
-}
-figure.highlight pre .addition {
-  color: #105ede;
-}
-figure.highlight pre .meta {
-  color: #7c4dff;
-}
-figure.highlight pre .comment {
-  color: rgba(149,165,166,0.8);
-}
-figure.highlight pre .variable,
-figure.highlight pre .attribute,
-figure.highlight pre .regexp,
-figure.highlight pre .ruby .constant,
-figure.highlight pre .xml .tag .title,
-figure.highlight pre .xml .pi,
-figure.highlight pre .xml .doctype,
-figure.highlight pre .html .doctype,
-figure.highlight pre .css .id,
-figure.highlight pre .tag .name,
-figure.highlight pre .css .class,
-figure.highlight pre .css .pseudo {
-  color: #e53935;
-}
-figure.highlight pre .tag {
-  color: #39adb5;
-}
-figure.highlight pre .number,
-figure.highlight pre .preprocessor,
-figure.highlight pre .literal,
-figure.highlight pre .params,
-figure.highlight pre .constant,
-figure.highlight pre .command {
-  color: #f76d47;
-}
-figure.highlight pre .built_in {
-  color: #ffb62c;
-}
-figure.highlight pre .ruby .class .title,
-figure.highlight pre .css .rules .attribute,
-figure.highlight pre .string,
-figure.highlight pre .value,
-figure.highlight pre .inheritance,
-figure.highlight pre .header,
-figure.highlight pre .ruby .symbol,
-figure.highlight pre .xml .cdata,
-figure.highlight pre .special,
-figure.highlight pre .number,
-figure.highlight pre .formula {
-  color: #91b859;
-}
-figure.highlight pre .keyword,
-figure.highlight pre .title,
-figure.highlight pre .css .hexcolor {
-  color: #39adb5;
-}
-figure.highlight pre .function,
-figure.highlight pre .python .decorator,
-figure.highlight pre .python .title,
-figure.highlight pre .ruby .function .title,
-figure.highlight pre .ruby .title .keyword,
-figure.highlight pre .perl .sub,
-figure.highlight pre .javascript .title,
-figure.highlight pre .coffeescript .title {
-  color: #6182b8;
-}
-figure.highlight pre .tag .attr,
-figure.highlight pre .javascript .function {
-  color: #7c4dff;
-}
 #article-container figure.highlight .line.marked {
   background-color: rgba(128,203,196,0.251);
 }
@@ -4799,10 +4724,6 @@ blockquote.pullquote.right {
   position: relative;
   margin: 0 0 1rem;
   padding: 15px;
-  border: initial;
-  border-left: 5px solid #eee;
-  background-color: #f9f9f9;
-  color: #4c4948;
   border-radius: 3px;
 }
 .note h2,
@@ -4843,7 +4764,6 @@ blockquote.pullquote.right {
   font-size: larger;
 }
 .note.default {
-  background: #f7f7f7;
   border-left-color: #777;
 }
 .note.default h2,
@@ -4858,7 +4778,6 @@ blockquote.pullquote.right {
   color: #777;
 }
 .note.primary {
-  background: #f5f0fa;
   border-left-color: #6f42c1;
 }
 .note.primary h2,
@@ -4873,7 +4792,6 @@ blockquote.pullquote.right {
   color: #6f42c1;
 }
 .note.info {
-  background: #eef7fa;
   border-left-color: #428bca;
 }
 .note.info h2,
@@ -4888,7 +4806,6 @@ blockquote.pullquote.right {
   color: #428bca;
 }
 .note.success {
-  background: #eff8f0;
   border-left-color: #5cb85c;
 }
 .note.success h2,
@@ -4903,7 +4820,6 @@ blockquote.pullquote.right {
   color: #5cb85c;
 }
 .note.warning {
-  background: #fdf8ea;
   border-left-color: #f0ad4e;
 }
 .note.warning h2,
@@ -4918,7 +4834,6 @@ blockquote.pullquote.right {
   color: #f0ad4e;
 }
 .note.danger {
-  background: #fcf1f2;
   border-left-color: #d9534f;
 }
 .note.danger h2,
@@ -5183,9 +5098,6 @@ blockquote.pullquote.right {
   background: #2c2c2c !important;
 }
 [data-theme='dark'] #post-comment .comment-switch label {
-  filter: brightness(0.7);
-}
-[data-theme='dark'] .note {
   filter: brightness(0.7);
 }
 [data-theme='dark'] .hide-button,
